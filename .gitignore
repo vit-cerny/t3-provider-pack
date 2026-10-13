@@ -1,0 +1,10 @@
+# Secrets - never commit real keys.
+.env
+*.env.local
+
+# Installer backups
+*.bak.*
+opencode.jsonc.bak.*
+
+# Node
+node_modules/
